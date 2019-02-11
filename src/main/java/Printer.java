@@ -1,9 +1,11 @@
 public class Printer {
 
     private int pages;
+    private int toner;
 
-    public Printer(int pages){
+    public Printer(int pages, int toner){
         this.pages = pages;
+        this.toner = toner;
 
     }
 
@@ -18,10 +20,22 @@ public class Printer {
     }
 
 
-    public int refill() {
-        return this.pages = 100;
+    public int refill(int refill) {
+        if (this.pages == 100) {
+           return this.pages;
+        }else{
+            return this.pages + refill;
+        }
     }
 
+    public int reduceToner(int pages){
+        return this.toner - pages;
     }
+
+
+
+
+
+}
 
 

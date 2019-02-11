@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="cdbc49b2-8758-419e-9a18-ef195367efb4" name="Default Changelist" comment="" />
+    <list default="true" id="cdbc49b2-8758-419e-9a18-ef195367efb4" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/src/main/java/Printer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Printer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/PrinterTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/PrinterTest.java" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/.gradle/" />
     <ignored path="$PROJECT_DIR$/build/" />
@@ -36,12 +39,12 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="java" value="2379" />
+          <entry key="java" value="2877" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="2379" />
+          <entry key="JAVA" value="2877" />
         </counts>
       </usages-collector>
     </session>
@@ -66,22 +69,22 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/PrinterTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="150">
-              <caret line="10" column="23" selection-start-line="10" selection-start-column="23" selection-end-line="10" selection-end-column="23" />
+            <state relative-caret-position="316">
+              <caret line="35" column="1" lean-forward="true" selection-start-line="35" selection-start-column="1" selection-end-line="35" selection-end-column="1" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/Printer.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="215">
-              <caret line="22" column="5" selection-start-line="22" selection-start-column="5" selection-end-line="22" selection-end-column="5" />
+            <state relative-caret-position="88">
+              <caret line="15" column="19" lean-forward="true" selection-start-line="15" selection-start-column="19" selection-end-line="15" selection-end-column="23" />
               <folding>
-                <marker date="1549899572734" expanded="true" signature="342:395" ph="..." />
+                <marker date="1549901024558" expanded="true" signature="404:444" ph="..." />
               </folding>
             </state>
           </provider>
@@ -399,8 +402,8 @@
         <option value="$PROJECT_DIR$/src/main/java/Calculator.java" />
         <option value="$PROJECT_DIR$/src/test/java/WaterBottleTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/WaterBottle.java" />
-        <option value="$PROJECT_DIR$/src/test/java/PrinterTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/Printer.java" />
+        <option value="$PROJECT_DIR$/src/test/java/PrinterTest.java" />
       </list>
     </option>
   </component>
@@ -464,7 +467,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1549899573979" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1549901262480" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -530,18 +533,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="WaterBottleTest - 2019.02.11 at 14h 59m 51s.xml">
-      <configuration name="WaterBottleTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="WaterBottleTest - 2019.02.11 at 15h 00m 59s.xml">
-      <configuration name="WaterBottleTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="WaterBottleTest - 2019.02.11 at 15h 12m 56s.xml">
-      <configuration name="WaterBottleTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="PrinterTest - 2019.02.11 at 15h 13m 04s.xml">
-      <configuration name="PrinterTest" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="PrinterTest - 2019.02.11 at 15h 23m 54s.xml">
       <configuration name="PrinterTest" configurationId="JUnit" />
     </history-entry>
@@ -560,6 +551,18 @@
     <history-entry file="PrinterTest - 2019.02.11 at 15h 38m 22s.xml">
       <configuration name="PrinterTest" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="PrinterTest - 2019.02.11 at 15h 39m 37s.xml">
+      <configuration name="PrinterTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="PrinterTest - 2019.02.11 at 15h 53m 08s.xml">
+      <configuration name="PrinterTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="PrinterTest - 2019.02.11 at 15h 57m 27s.xml">
+      <configuration name="PrinterTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="PrinterTest - 2019.02.11 at 16h 03m 47s.xml">
+      <configuration name="PrinterTest" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1280" height="729" extended-state="6" />
@@ -576,10 +579,10 @@
       <window_info anchor="bottom" id="Terminal" />
       <window_info anchor="bottom" id="Event Log" side_tool="true" />
       <window_info anchor="bottom" id="Build" weight="0.32967034" />
-      <window_info active="true" anchor="bottom" id="Messages" visible="true" weight="0.32967034" />
+      <window_info anchor="bottom" id="Messages" weight="0.32967034" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.32967034" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32967034" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -627,20 +630,20 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/PrinterTest.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/Printer.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="10" column="23" selection-start-line="10" selection-start-column="23" selection-end-line="10" selection-end-column="23" />
+        <state relative-caret-position="88">
+          <caret line="15" column="19" lean-forward="true" selection-start-line="15" selection-start-column="19" selection-end-line="15" selection-end-column="23" />
+          <folding>
+            <marker date="1549901024558" expanded="true" signature="404:444" ph="..." />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Printer.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/PrinterTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="215">
-          <caret line="22" column="5" selection-start-line="22" selection-start-column="5" selection-end-line="22" selection-end-column="5" />
-          <folding>
-            <marker date="1549899572734" expanded="true" signature="342:395" ph="..." />
-          </folding>
+        <state relative-caret-position="316">
+          <caret line="35" column="1" lean-forward="true" selection-start-line="35" selection-start-column="1" selection-end-line="35" selection-end-column="1" />
         </state>
       </provider>
     </entry>
