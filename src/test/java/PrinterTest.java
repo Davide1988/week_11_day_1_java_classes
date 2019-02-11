@@ -13,8 +13,19 @@ public class PrinterTest {
     }
 
     @Test
+    public void canGetPages(){
+        assertEquals(100, printer.getPages());
+    }
+
+    @Test
+    public void canGetToner(){
+        assertEquals(10, printer.getToner());
+    }
+
+    @Test
     public void canPrint(){
-        assertEquals(true ,printer.print(1,4));
+        printer.print(1,4);
+        assertEquals(96,printer.getPages());
     }
 
     @Test
@@ -27,7 +38,8 @@ public class PrinterTest {
 
     @Test
     public void canReduceToner(){
-        assertEquals(8 ,printer.reduceToner(2));
+        printer.print(1,1);
+        assertEquals(8 ,printer.getToner());
     }
 
 

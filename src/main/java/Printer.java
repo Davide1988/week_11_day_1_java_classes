@@ -10,12 +10,18 @@ public class Printer {
     }
 
 
-    public boolean print(int pages,int copies) {
+    public int getPages(){
+        return this.pages;
+    }
+
+    public int getToner(){
+        return this.toner;
+    }
+
+    public void print(int pages,int copies) {
         int numberOfPages = pages * copies;
         if (this.pages >= numberOfPages) {
-            return true;
-        } else {
-            return false;
+            this.pages -= numberOfPages;
         }
     }
 
@@ -28,8 +34,9 @@ public class Printer {
         }
     }
 
-    public int reduceToner(int pages){
-        return this.toner - pages;
+    public int reduceToner(){
+
+
     }
 
 
