@@ -39,7 +39,7 @@ public class PrinterTest {
     @Test
     public void canReduceToner(){
         printer.print(1,1);
-        assertEquals(8 ,printer.getToner());
+        assertEquals(9 ,printer.getToner());
     }
 
 

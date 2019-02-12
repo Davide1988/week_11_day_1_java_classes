@@ -22,6 +22,7 @@ public class Printer {
         int numberOfPages = pages * copies;
         if (this.pages >= numberOfPages) {
             this.pages -= numberOfPages;
+            this.toner -= numberOfPages;
         }
     }
 
@@ -34,10 +35,6 @@ public class Printer {
         }
     }
 
-    public int reduceToner(){
-
-
-    }
 
 
 
